@@ -12,7 +12,7 @@
  * I visited the given repository and read the instructions in README file, then i forked the repository and cloned it , created a branch and made changes in the code , pushed the changes to github and pulled request.  
  * Through this task, I gained practical knowledge of version control, collaboration, and GitHub workflow management.
 
-![GITHUB](TASK2.png)  
+![GITHUB](task2.png)  
 ___
 # TASK 3 : GET FAMILIAR WITH COMMAND LINES IN UBUNTU
 In this task i learned basic ubuntu commands like,  
