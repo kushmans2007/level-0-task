@@ -87,7 +87,7 @@ This task helped me understand PWM-based motor speed control, H-Bridge operation
 
 ![task11](task11img.jpeg)
 
-[dc motor speed control](task11.mp4)
+![dc motor speed controler](task11.gif)
 _________
 
 # TASK 12 : 3D PRINTING
@@ -146,4 +146,5 @@ Link to report :
 
 
 [def]: ./portfolio/index.html
+
 
