@@ -111,7 +111,7 @@ __________
 # TASK 14 : MAKE A WEB APP
 I made an app "FLOWER GARDEN", which allows users to draw flowers on digital canvas using different colours and eraser . After completing their drawings, users can name the flower and save it . This application is developed using HTML, CSS and JavaScript .  
 
-![task14](TASK14.png)
+![task14](task14.png)
 _______
 
 # TASK 15 : BUILD YOUR OWN BRAIN-LINEAR REGRESSION FROM SCRATCH
