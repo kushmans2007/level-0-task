@@ -54,7 +54,7 @@ ESP32 is a Wi-Fi and Bluetooth-enabled microcontroller used in electronics proje
 In this task, I learned the working of the ESP32 and created a standalone web server using it. The web server allows control of an LED connected to the ESP32 GPIO pins through a web interface. I used the Arduino IDE to write and upload the code to the ESP32, and learned how to configure the IDE to recognize and program the ESP32 board. 
 
 ![ESP32](ESP32.jpeg)
-<video src="led toggle.mp4" controls width="600" autoplay muted loop ></video>
+[led toggle video](ledoggle.mp4)
 _____
 # TASK 8 : SOLDERING PREREQUISITES
 * Soldering : Soldering is the process of joining two or more metal parts together by melting a filler metal called solder into the joint.
@@ -87,7 +87,7 @@ This task helped me understand PWM-based motor speed control, H-Bridge operation
 
 ![task11](task11img.jpeg)
 
-<video src="task11.mp4" controls width="600" autoplay muted loop ></video>
+[dc motor speed control](task11.mp4)
 _________
 
 # TASK 12 : 3D PRINTING
@@ -136,6 +136,7 @@ An MQ135 air quality sensor is one type of MQ gas sensor used to detect, measure
  The MQ135 air quality sensor, which belongs to the series of MQ gas sensors, is widely used to detect harmful gases, and smoke in the fresh air.  
 Link to report : 
 [MQ135 Air Sensor](MQ135.md)
+
 
 
 
