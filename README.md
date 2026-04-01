@@ -187,6 +187,7 @@ plt.title("Linear Regression from Scratch")
 plt.legend()
 plt.show()
 ```
+![linear regression](https://github.com/kushmans2007/level-0-task/blob/main/Screenshot%202026-04-01%20215157.png)
 
 __________
 # TASK 16 : MQ135 AIR QUALITY SENSOR
