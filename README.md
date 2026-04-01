@@ -30,7 +30,7 @@ ___
 # TASK 4 : CREATE PORTFOLIO WEBPAGE
 I created a personal portfolio website using HTML and CSS.  
  The website showcases information about me, my education, skills, experience and social media profiles.  
- 
+ [link to portfolio](https://kushmans2007.github.io/portfolio/)
 
 ![TASK4](TASK4.png)  
 ![TASK4](TASK4,2.png)  
