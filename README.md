@@ -111,6 +111,7 @@ __________
 # TASK 14 : MAKE A WEB APP
 I made an app "FLOWER GARDEN", which allows users to draw flowers on digital canvas using different colours and eraser . After completing their drawings, users can name the flower and save it . This application is developed using HTML, CSS and JavaScript .    
 [link to webpage](https://kushmans2007.github.io/Flower-Garden/)  
+(The canvas drawing feature currently works best on laptops with a mouse. Touchscreen devices may not be fully supported)
 ![task14](task14.png)
 _______
 
