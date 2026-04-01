@@ -126,11 +126,68 @@ _______
   * Blue dots → Actual housing data  
   * Solid blue line → Custom model prediction  
   * Orange dashed line → Scikit-learn prediction
-  
+ ```
+import numpy as np
+import matplotlib.pyplot as plt
 
-![LINEAR](PY.png)
 
-![linear](PY2.png)
+# Hours studied (X)
+X = np.array([
+    1.5, 2.0, 2.5, 3.0, 3.5,
+    4.0, 4.5, 5.0, 5.5, 6.0,
+    6.5, 7.0, 7.5, 8.0, 8.5,
+    9.0, 9.5, 10.0
+], dtype=float)
+
+# Marks (Y) with some randomness
+Y = np.array([
+    20, 25, 28, 32, 36,
+    40, 42, 45, 48, 52,
+    55, 60, 63, 65, 68,
+    72, 75, 80
+], dtype=float)
+
+m = 0   # slope
+b = 0   # intercept
+
+# Hyperparameters
+learning_rate = 0.01
+epochs = 1000
+n = len(X)
+
+# Training using Gradient Descent
+for i in range(epochs):
+    Y_pred = m * X + b   # predicted values
+
+    # Compute gradients
+    dm = (-2/n) * np.sum(X * (Y - Y_pred))
+    db = (-2/n) * np.sum(Y - Y_pred)
+
+    # Update parameters
+    m = m - learning_rate * dm
+    b = b - learning_rate * db
+
+    # Print progress every 100 iterations
+    if i % 100 == 0:
+        loss = np.mean((Y - Y_pred) ** 2)
+        print(f"Epoch {i}: Loss = {loss:.4f}, m = {m:.4f}, b = {b:.4f}")
+
+# Final parameters
+print("\nFinal values:")
+print(f"Slope (m) = {m}")
+print(f"Intercept (b) = {b}")
+
+# Plot results
+Y_final = m * X + b
+plt.scatter(X, Y, color='blue', label='Actual Data')
+plt.plot(X, Y_final, color='red', label='Regression Line')
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.title("Linear Regression from Scratch")
+plt.legend()
+plt.show()
+```
+
 __________
 # TASK 16 : MQ135 AIR QUALITY SENSOR
 An MQ135 air quality sensor is one type of MQ gas sensor used to detect, measure, and monitor a wide range of gases present in air like ammonia, alcohol, benzene, smoke, carbon dioxide, etc.  
